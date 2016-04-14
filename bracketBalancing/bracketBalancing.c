@@ -15,8 +15,9 @@ int test(char* s){
 
 //golfVersion
 #define S s[i]
-//#define P '('
+
 t(s,i)char* s;{int a[]={['[']=0,['{']=0,['(']=0};for(i=0;S*!(S=='{'&a['(']|S=='['&(a['(']|a['{'])|S==']'&(a['(']|a['{'])|S=='}'&a['(']);i++)a[S]++,a[S-S/90-1]--;return !(a['[']+a['{']+a['(']);}
+
 
 
 
@@ -29,5 +30,4 @@ int main(int argc, char ** argv){
 	}
 	return 0;
 }
-
 

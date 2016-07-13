@@ -1,1 +1,1 @@
-from https://github.com/dj0wns/code-golf
+from http://codegolf.stackexchange.com/questions/80196/will-the-beam-hit/

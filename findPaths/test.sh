@@ -1,6 +1,5 @@
 #!/bin/bash
-./findPaths "
-12 45
+./findPaths "12 45
 11233
   233
     1

@@ -15,7 +15,7 @@ main(a,i,m,n)char**i;{
 	for(;k<(n>m?n:m);){
 		d[k]=45;
 		a=(n-++k>=0)*(i[2][(n-k)]-48)+(m-k>=0)*(i[1][(m-k)]-48);
-		r+=a*pow(10.,(float)k-1);
+		r+=a*pow(10,k-1);
 		c[(n>m?n:m)-k-1]=32+(a+c[(n>m?n:m)-k]%2>9)*17;
 	}
 	/*print carry, topnum, botnum, dashes, answer*/
